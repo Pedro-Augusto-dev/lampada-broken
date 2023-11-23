@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239,235,228);
+    text-align: center;
+    background-color: rgb(48, 48, 48); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    color: rgb(239,235,228);
+    margin: 10px;
+}
+
+#lampadas{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    width: 30%;
+    height: 450px;
+}
+
+.btn2 {
+    background-color: rgb(12, 112, 242);
+    border-radius: 15px;
+    position: relative;
+    bottom: -10px;
+
+    height: 30px;
+    width: 150px;
+
+    color: white;
+
+    border: 0px;
+    
+}
+
+
+.btn1{
+    background-color: rgb(12, 112, 242);
+    border-radius: 15px;
+
+
+    height: 30px;
+    width: 150px;
+
+    color: white;
+
+    border: 0px;
+}
+.btn3{
+    background-color: rgb(12, 112, 242);
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    left: 75px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    display: none;
+    color: white;
+
+    border: 0px;
+}
+
+
+.butao:hover{
+    background-color: aliceblue;
+    color: rgb(12, 112, 242);
+    border: 1px solid rgb(12, 112, 242);
+}
+@media only screen and (min-width: 414px) 
+{
+    #lampadas{
+        width: 300px;
+
+    } #lampadas .butao{
+        padding-top: px;
+    }
+    .bnt1{  background-color: rgb(12, 112, 242);
+    border-radius: 15px;
+
+
+    height: 30px;
+    width: 150px;
+
+    color: white;
+
+    border: 0px;
+    }
+}
